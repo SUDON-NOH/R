@@ -1,4 +1,4 @@
-"#" 의 개수에 따라 글자가 작아진다
+## "#" 의 개수에 따라 글자가 작아진다
 "[ ]"을 쓰면 링크가 걸린다.
 
 이것들을 내 것으로 당겨오는 법
@@ -13,7 +13,7 @@ Web/Data Base -utf-8 '한'을 3바이트로 표시
 
 메모장은 양쪽 모두 사용 가능
 
-**집에가서 할 일
+### **집에가서 할 일
 
 1. JDK 1.8 설치
 2. Git 설치
@@ -34,5 +34,5 @@ Git commit -m "Message"
 PC에서 GitHub = Push
 GitHub에서 PC = Pull
 
-시간이 되면 youtube
+#### 시간이 되면 youtube
 [일일커밋](https://www.youtube.com/) 을 시청

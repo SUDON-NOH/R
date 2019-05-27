@@ -1,38 +1,37 @@
-"#" ÀÇ °³¼ö¿¡ µû¶ó ±ÛÀÚ°¡ ÀÛ¾ÆÁø´Ù
-"[ ]"À» ¾²¸é ¸µÅ©°¡ °É¸°´Ù.
+"#" ì˜ ê°œìˆ˜ì— ë”°ë¼ ê¸€ìžê°€ ìž‘ì•„ì§„ë‹¤
+"[ ]"ì„ ì“°ë©´ ë§í¬ê°€ ê±¸ë¦°ë‹¤.
 
-ÀÌ°ÍµéÀ» ³» °ÍÀ¸·Î ´ç°Ü¿À´Â ¹ý
+ì´ê²ƒë“¤ì„ ë‚´ ê²ƒìœ¼ë¡œ ë‹¹ê²¨ì˜¤ëŠ” ë²•
 
-ÇÑ±Û
+í•œê¸€
 
-±¹°¡ Ç¥ÁØ -ANSI / EUC-KR (MICROSOFT Ã¤ÅÃ)     'ÇÑ'À»  2¹ÙÀÌÆ®·Î Ç¥½Ã
+êµ­ê°€ í‘œì¤€ -ANSI / EUC-KR (MICROSOFT ì±„íƒ)     'í•œ'ì„  2ë°”ì´íŠ¸ë¡œ í‘œì‹œ
 
-Web/Data Base -utf-8 'ÇÑ'À» 3¹ÙÀÌÆ®·Î Ç¥½Ã
+Web/Data Base -utf-8 'í•œ'ì„ 3ë°”ì´íŠ¸ë¡œ í‘œì‹œ
 
-ÇÁ·Î±×·¥¿¡¼­ ÇÑ±ÛÀ» Ã³¸®ÇÑ´Ù¸é ±×°ÍÀº utf-8·Î Ã³¸®
+í”„ë¡œê·¸ëž¨ì—ì„œ í•œê¸€ì„ ì²˜ë¦¬í•œë‹¤ë©´ ê·¸ê²ƒì€ utf-8ë¡œ ì²˜ë¦¬
 
-¸Þ¸ðÀåÀº ¾çÂÊ ¸ðµÎ »ç¿ë °¡´É
+ë©”ëª¨ìž¥ì€ ì–‘ìª½ ëª¨ë‘ ì‚¬ìš© ê°€ëŠ¥
 
-**Áý¿¡°¡¼­ ÇÒ ÀÏ
+**ì§‘ì—ê°€ì„œ í•  ì¼
 
-1. JDK 1.8 ¼³Ä¡
-2. Git ¼³Ä¡
+1. JDK 1.8 ì„¤ì¹˜
+2. Git ì„¤ì¹˜
 git config --global
 git user.name "SUDON-NOH"
 git user.email sudonnoh@gmail.com
-3. ´ç°Ü¿À±â
+3. ë‹¹ê²¨ì˜¤ê¸°
 D:
 Mkdir \Workspace
-'git clone ÁÖ¼Ò (Clone or Download) TIL'À» Àû´Â´Ù.
-"Áý¿¡¼­ ÀÛ¾÷ÇÑ ³»¿ë"ÀÌ¶ó°í ÀÔ·ÂÇÑ ÈÄ
+'git clone ì£¼ì†Œ (Clone or Download) TIL'ì„ ì ëŠ”ë‹¤.
+"ì§‘ì—ì„œ ìž‘ì—…í•œ ë‚´ìš©"ì´ë¼ê³  ìž…ë ¥í•œ í›„
 git push
 
-»ýÈ°ÄÚµù µ¿¿µ»ó¿¡¼­ Git »ç¿ë¹ý
+ìƒí™œì½”ë”© ë™ì˜ìƒì—ì„œ Git ì‚¬ìš©ë²•
 
 Git add .
 Git commit -m "Message"
-PC¿¡¼­ GitHub = Push
-GitHub¿¡¼­ PC = Pull
+PCì—ì„œ GitHub = Push
+GitHubì—ì„œ PC = Pull
 
-½Ã°£ÀÌ µÇ¸é youtube [ÀÏÀÏÄ¿¹Ô](https://www.youtube.com/watch?v=cHO5Mwx1-NI) À» ½ÃÃ»
-
+ì‹œê°„ì´ ë˜ë©´ youtube [ì¼ì¼ì»¤ë°‹](https://www.youtube.com/watch?v=cHO5Mwx1-NI) ì„ ì‹œì²­

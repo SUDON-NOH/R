@@ -34,4 +34,5 @@ Git commit -m "Message"
 PC에서 GitHub = Push
 GitHub에서 PC = Pull
 
-시간이 되면 youtube [일일커밋](https://www.youtube.com/watch?v=cHO5Mwx1-NI) 을 시청
+시간이 되면 youtube
+[일일커밋](https://www.youtube.com/watch?v=cHO5Mwx1-NI) 을 시청

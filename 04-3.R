@@ -31,7 +31,15 @@ write.xlsx(df_exam,"my_excel1.xlsx",sheetname = "Sheet3")
 # CSV 파일 읽고 쓰기 - Data 공부할 때 UCI Machine Learning Repository
 # Comma Separated values
 
+df_csv_exam <- read.csv("csv_exam.csv", stringsAsFactors = F)
+df_csv_exam
+str(df_csv_exam) # Class를 A,B 로 바꿨을 때 Factor로 나타남. stringsAsFactors를 적용하면 chr <- 캐릭터형으로 바뀜 그냥 Factor로 되어 있을 때는 한계가 생김
 
+df_midterm <- data.frame(english=c(90,80,60,70),
+                         math = c(50,60,100,20),
+                         class = c(1,1,2,2))
 
+df_midterm
 
+write.csv(df_midterm,file = "df_midterm.csv")
 

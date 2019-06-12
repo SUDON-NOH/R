@@ -189,3 +189,25 @@ sum_func <- function(a){
 }
 sum_func(c(1,2,3,4,5))
 
+# 교재 진도
+
+df_midterm <- data.frame(english=c(90,80,60,70),
+                         math = c(50,60,100,20),
+                         class = c(1,1,2,2))
+df_midterm
+mean(df_midterm$english)  # 평균
+sum(df_midterm$math)      # 합
+min(df_midterm$englis)    # 최소값
+max(df_midterm$english)   # 최대값
+sd(df_midterm$english)    # 표준편차
+summary(df_midterm)       # 요약
+
+제품 <- c("사과", "딸기", "수박")
+가격 <- c(1800, 1500, 3000)
+판매량 <- c(24, 38, 13)
+df_fruit <- data.frame(제품,가격,판매량)
+df_fruit
+mean(df_fruit$가격)
+mean(df_fruit$판매량)
+summary(df_fruit)
+str(df_fruit)

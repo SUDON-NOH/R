@@ -198,8 +198,8 @@ df_midterm <- data.frame(english=c(90,80,60,70),
 df_midterm
 mean(df_midterm$english)  # 평균
 sum(df_midterm$math)      # 합
-min(df_midterm$englis)    # 최소값
-max(df_midterm$english)   # 최대값
+min(df_midterm$englis)    # 최솟값
+max(df_midterm$english)   # 최값
 sd(df_midterm$english)    # 표준편차
 summary(df_midterm)       # 요약
 

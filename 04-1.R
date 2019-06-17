@@ -426,4 +426,4 @@ mean(df_fruit$가격)
 mean(df_fruit$판매량)
 summary(df_fruit)
 str(df_fruit)
->>>>>>> 6c5ce7a06d3f430aec979ea1a5e2887292584f98
+

@@ -23,7 +23,7 @@ outlier %>%
 
 # 결측 처리하기
 library(ggplot2)
-boxplot(mpg$hwy)$stats
+boxplot(mpg$hwy)$stats # 극단치 1번과 5번을 벗어나는 값들을 결측치로 처리한다.
 quantile(mpg$hwy, na.rm = T)
 
 # mpg 데이터의 극단치로 제거

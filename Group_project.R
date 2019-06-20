@@ -30,9 +30,12 @@ disease_asthma_CGG <- disease_asthma_CGG %>%
 install.packages("dygraphs")
 library(dygraphs)
 
-as.Date(disease_cold_CGG$날짜)
+disease_cold_CGG$날짜<-as.Date(disease_cold_CGG$날짜)
 
 
 
 ggplot(data = disease_cold_CGG, aes(x = 날짜, y = 발생건수.건., col = 시군구명)) +
-  geom_line()
+  geom_line() +
+  xlim("2014-01-01", "2014-01-31")
+
+

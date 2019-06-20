@@ -1,0 +1,6 @@
+cd .. <- 상위폴더로 이동
+pwd <- 현재 위치
+ls <- 폴더 내 파일 목록
+
+
+git pull origin master --allow unrelated-histories

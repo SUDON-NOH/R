@@ -2,3 +2,12 @@ library(dplyr)
 library(ggplot2)
 library(readxl)
 library(rJava)
+
+# 텍스트 마이닝
+
+install.packages("rJava")
+install.packages("memories")
+install.packages("KoNLP")
+
+library(KoNLP)
+library(dplyr)

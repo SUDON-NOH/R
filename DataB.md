@@ -79,4 +79,4 @@ _컴퓨터에 데이터를 저장하는 방식을 정의해 놓은 개념 모형
 >>>> - 관계형 데이터베이스에서는 테이블 간의 관계를 외래키(foreign key) 등으로 구현하여 사용
 
 >#### 관계형 데이터베이스란?
-_관계형 데이터베이스 관리 스시템(RDBMS : Realational Database Management System)_
+_관계형 데이터베이스 관리 시스템(RDBMS : Realational Database Management System)_
